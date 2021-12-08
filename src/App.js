@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import React, { Component } from 'react';
-import './App.css';
+//import './App.css';
 //import UserGreeting from './Components/UserGreeting';
 // import Counter from './Components/Counter'
 // import Welcome from './Components/Welcome'
@@ -9,16 +9,17 @@ import './App.css';
 // import ClassClick from './Components/ClassClick'
 // import EventBind from './Components/EventBind'
 // import ParentComponent from './Components/ParentComponent';
-import Ssheet from './Components/Stylesheet'
+//import Ssheet from './Components/Stylesheet'
+import Form from './Components/Form'
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-
-        <Ssheet primary={true}/>
-        {/* <UserGreeting />
+        <Form />
+       {/* <Ssheet primary={true}/>
+         <UserGreeting />
         <ParentComponent />
         <EventBind />
 
